@@ -14,19 +14,19 @@
 # print(mood_responses.mood_response(mood))
 
 
-def mood_response(mood):
-    if mood == 'happy':
-        print('happy is good')
-    elif mood == 'sad':
-        print('sad is not good')
-    elif mood == 'okay':
-        print('okay is okay')
-    else:
-        print('invalid input, try again')
+# def mood_response(mood):
+#     if mood == 'happy':
+#         print('happy is good')
+#     elif mood == 'sad':
+#         print('sad is not good')
+#     elif mood == 'okay':
+#         print('okay is okay')
+#     else:
+#         print('invalid input, try again')
 
-import mood.py    
-mood = input("How do you feel today? ")
-print(mood.mood_reponse(mood))
+import mood
+mood1 = input("How do you feel today? ")
+print(mood.mood_response(mood1))
 
 
 
